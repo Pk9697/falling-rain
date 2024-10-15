@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(15, 20px);
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.row {
+  display: contents;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  background-color: black;
+}
